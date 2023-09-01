@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <p>Call functions which perform calculations and return results:</p>
+
+    <p id="add"></p>
+    <p id="multiply"></p>
+
+    <script>
+        function myFunction(r, s) {
+            return r + s;
+        }
+
+        function my2ndFunction(e, f) {
+            return e * f;
+        }
+
+        let q = myFunction(1, 8);
+        let v = my2ndFunction(9, 6);
+
+        document.getElementById("add").innerHTML = q;
+        document.getElementById("multiply").innerHTML = v;
+    </script>
+
+</body>
+
+</html>
